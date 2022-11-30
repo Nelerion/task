@@ -1,0 +1,179 @@
+body {
+  font-family: "Gotham Pro", sans-serif;
+}
+.container {
+  display: flex;
+  position: relative;
+  height: 500px;
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid rgb(219, 216, 216);
+  padding-top: 40px;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.diagram {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+.flag {
+  width: 40px;
+  position: absolute;
+  top: -30px;
+}
+.diagram_info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 30px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.count {
+  display: flex;
+  position: relative;
+  margin-right: 20px;
+  color: rgb(127, 128, 125);
+}
+.count_title {
+  font-size: 50px;
+  font-weight: 300;
+}
+.remainder {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 62px;
+  top: 5px;
+}
+.procent {
+  color: rgb(202, 200, 202);
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+  color: silver;
+  font-family: Arial;
+  font-weight: 200;
+}
+.down_text {
+  color: #ffdb20;
+  font-size: 16px;
+}
+.loyal {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(127, 128, 125);
+}
+
+.point {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 40px;
+}
+.point_block {
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+  justify-content: space-between;
+  width: 80%;
+}
+.point_block-action {
+  display: flex;
+  gap: 10px;
+}
+.animation {
+  width: 100px;
+  height: 32px;
+  border-radius: 5px;
+  background-color: rgba(243, 236, 236, 0.527);
+  border: 1px solid rgb(192, 192, 192);
+  position: relative;
+  cursor: pointer;
+}
+.animation_top {
+  width: 0px;
+  height: 22px;
+}
+.green:before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  bottom: 0;
+  background-color: rgba(22, 139, 11, 0.671);
+  border-radius: 0 0 0 5px;
+}
+.yellow:before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  bottom: 0;
+  background-color: #ffda209f;
+  border-radius: 0 0 0 5px;
+}
+.red:before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  bottom: 0;
+  background-color: rgba(231, 62, 62, 0.658);
+  border-radius: 0 0 0 5px;
+}
+.active {
+  transition: 2000ms;
+  width: 100%;
+}
+.anim_info {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translate(-20%, -50%);
+  font-size: 11px;
+  color: rgb(127, 128, 125);
+}
+.green {
+  background-color: rgb(22, 139, 11);
+}
+.yellow {
+  background-color: #ffdb20;
+}
+.red {
+  background-color: rgb(231, 62, 62);
+}
+
+.point_text {
+  display: flex;
+}
+.point_column {
+  display: flex;
+  flex-direction: column;
+  color: rgb(75, 73, 73);
+  align-items: center;
+}
+.point_block-title {
+  color: rgb(75, 73, 73);
+}
+
+.line {
+  position: absolute;
+  top: 150px;
+  left:5px;
+}
+
+.human{display: flex;}
+.human img{
+    width: 10px;
+    margin-left: 5px;
+}

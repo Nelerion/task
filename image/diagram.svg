@@ -1,0 +1,26 @@
+ <svg
+          width="228"
+          height="228"
+          viewBox="0 0 90 83"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M26.1686 3C-8.8314 18 -5.35507 79.5 44.6686 79.5C94.6923 79.5 98.6686 20 63.1686 3"
+            stroke="#F2EDED"
+            stroke-width="4"
+            stroke-linecap="round"
+          />
+          <path
+            d="M71.5 71.5C62.5 80 26 88 8.5 61"
+            stroke="#4AA513"
+            stroke-width="4"
+            stroke-linecap="round"
+          />
+          <path
+            d="M62.5 3C80.5 7.5 101 48 72.0169 71"
+            stroke="#FFDB20"
+            stroke-width="4"
+            stroke-linecap="round"
+          />
+        </svg>

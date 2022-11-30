@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.cdnfonts.com/css/gotham-pro" rel="stylesheet" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <img class="line" src="./image/line.svg" />
+      <div class="diagram">
+        <img src="./image/diagram.svg" />
+        <img class="flag" src="./image/flag.svg" alt="flag" />
+        <div class="diagram_info">
+          <div class="count">
+            <span class="count_title">72</span>
+            <div class="remainder">
+              <span class="procent">%</span>
+              <span style="font-size: 26px">.7</span>
+            </div>
+          </div>
+          <div class="text">
+            <span class="loyal">Лояльность</span>
+            <span class="down_text">ниже среднего</span>
+            <span
+              >по отрасли:FMCG<br />значение слево от медианы<br />52.0%-83.1%</span
+            >
+            <span style="display:flex;margin:0 auto;margin-top:5px;color:#4AA513"><img src="./image/treugol.svg"/>3.1</span>
+          </div>
+        </div>
+      </div>
+      <div class="point">
+        <div class="point_block">
+          <span class="point_block-title">Промоутеры</span>
+          <div class="point_block-action">
+            <div class="point_text">
+              <div class="point_column">
+                <span>32.0%</span
+                ><span class="human">81<img src="./image/human.svg" /></span>
+              </div>
+            </div>
+            <div class="animation" onclick="animation1()">
+              <div class="animation_top green" id="animation1"></div>
+              <span class="anim_info">+1.2%</span>
+            </div>
+          </div>
+        </div>
+        <div class="point_block">
+          <span class="point_block-title">Скептики</span>
+          <div class="point_block-action">
+            <div class="point_text">
+              <div class="point_column">
+                <span>39.1%</span><span class="human">8<img src="./image/human.svg" /></span>
+              </div>
+            </div>
+            <div class="animation" onclick="animation2()">
+              <div class="animation_top yellow" id="animation2"></div>
+              <span class="anim_info">+4.8%</span>
+            </div>
+          </div>
+        </div>
+        <div class="point_block">
+          <span class="point_block-title">Критики</span>
+          <div class="point_block-action">
+            <div class="point_text">
+              <div class="point_column">
+                <span>79.8%</span><span class="human">7<img src="./image/human.svg" /></span>
+              </div>
+            </div>
+            <div class="animation" onclick="animation3()">
+              <div class="animation_top red" id="animation3"></div>
+              <span class="anim_info">+9.7%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
